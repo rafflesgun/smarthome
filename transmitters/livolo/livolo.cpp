@@ -43,7 +43,7 @@ unsigned char device = 16;							// Key A is number 8, B16 (bit 16-22, with bit 
 unsigned int loops = 1;
 unsigned int repeats = REPEATS;
 bool inverted = false;
-unsigned char output_pin = 15;						// wiringPi PIN number
+unsigned char output_pin = 2;						// wiringPi PIN number
 
 int fflg = 0;										// Fake flag, for debugging. Init to false. If true, print values only
 
