@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0748051BBD83CC00A17030 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3E0747F11BBD83CC00A17030 /* README.md */; };
+		3E0748061BBD83CC00A17030 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 3E0747F31BBD83CC00A17030 /* Makefile */; };
+		3E0748071BBD83CC00A17030 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3E0747F41BBD83CC00A17030 /* README.md */; };
+		3E0748081BBD83CC00A17030 /* cJSON.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E0747F61BBD83CC00A17030 /* cJSON.c */; };
+		3E0748091BBD83CC00A17030 /* livoloDecode.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E0747F91BBD83CC00A17030 /* livoloDecode.c */; };
+		3E07480A1BBD83CC00A17030 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 3E0747FA1BBD83CC00A17030 /* Makefile */; };
+		3E07480B1BBD83CC00A17030 /* sniffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E0747FC1BBD83CC00A17030 /* sniffer.c */; };
+		3E07480C1BBD83CC00A17030 /* transmitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E0747FD1BBD83CC00A17030 /* transmitter.c */; };
+		3E07480D1BBD83CC00A17030 /* livolo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E0748011BBD83CC00A17030 /* livolo.cpp */; };
+		3E07480E1BBD83CC00A17030 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 3E0748031BBD83CC00A17030 /* Makefile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E53B6C31BBD82E700A405A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E0747F11BBD83CC00A17030 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E0747F31BBD83CC00A17030 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		3E0747F41BBD83CC00A17030 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E0747F61BBD83CC00A17030 /* cJSON.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cJSON.c; sourceTree = "<group>"; };
+		3E0747F71BBD83CC00A17030 /* cJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cJSON.h; sourceTree = "<group>"; };
+		3E0747F81BBD83CC00A17030 /* LamPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LamPI.h; sourceTree = "<group>"; };
+		3E0747F91BBD83CC00A17030 /* livoloDecode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = livoloDecode.c; sourceTree = "<group>"; };
+		3E0747FA1BBD83CC00A17030 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		3E0747FB1BBD83CC00A17030 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
+		3E0747FC1BBD83CC00A17030 /* sniffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sniffer.c; sourceTree = "<group>"; };
+		3E0747FD1BBD83CC00A17030 /* transmitter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transmitter.c; sourceTree = "<group>"; };
+		3E0748001BBD83CC00A17030 /* livolo */ = {isa = PBXFileReference; lastKnownFileType = file; path = livolo; sourceTree = "<group>"; };
+		3E0748011BBD83CC00A17030 /* livolo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = livolo.cpp; sourceTree = "<group>"; };
+		3E0748021BBD83CC00A17030 /* livolo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = livolo.h; sourceTree = "<group>"; };
+		3E0748031BBD83CC00A17030 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		3E0748041BBD83CC00A17030 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		3E53B6C51BBD82E700A405A6 /* SmartHome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmartHome; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E53B6C21BBD82E700A405A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0747F21BBD83CC00A17030 /* receivers */ = {
+			isa = PBXGroup;
+			children = (
+				3E0747F31BBD83CC00A17030 /* Makefile */,
+				3E0747F41BBD83CC00A17030 /* README.md */,
+				3E0747F51BBD83CC00A17030 /* sniffer */,
+			);
+			path = receivers;
+			sourceTree = "<group>";
+		};
+		3E0747F51BBD83CC00A17030 /* sniffer */ = {
+			isa = PBXGroup;
+			children = (
+				3E0747F61BBD83CC00A17030 /* cJSON.c */,
+				3E0747F71BBD83CC00A17030 /* cJSON.h */,
+				3E0747F81BBD83CC00A17030 /* LamPI.h */,
+				3E0747F91BBD83CC00A17030 /* livoloDecode.c */,
+				3E0747FA1BBD83CC00A17030 /* Makefile */,
+				3E0747FB1BBD83CC00A17030 /* README.TXT */,
+				3E0747FC1BBD83CC00A17030 /* sniffer.c */,
+				3E0747FD1BBD83CC00A17030 /* transmitter.c */,
+			);
+			path = sniffer;
+			sourceTree = "<group>";
+		};
+		3E0747FE1BBD83CC00A17030 /* transmitters */ = {
+			isa = PBXGroup;
+			children = (
+				3E0747FF1BBD83CC00A17030 /* livolo */,
+			);
+			path = transmitters;
+			sourceTree = "<group>";
+		};
+		3E0747FF1BBD83CC00A17030 /* livolo */ = {
+			isa = PBXGroup;
+			children = (
+				3E0748001BBD83CC00A17030 /* livolo */,
+				3E0748011BBD83CC00A17030 /* livolo.cpp */,
+				3E0748021BBD83CC00A17030 /* livolo.h */,
+				3E0748031BBD83CC00A17030 /* Makefile */,
+				3E0748041BBD83CC00A17030 /* readme.txt */,
+			);
+			path = livolo;
+			sourceTree = "<group>";
+		};
+		3E53B6BC1BBD82E700A405A6 = {
+			isa = PBXGroup;
+			children = (
+				3E0747F11BBD83CC00A17030 /* README.md */,
+				3E0747F21BBD83CC00A17030 /* receivers */,
+				3E0747FE1BBD83CC00A17030 /* transmitters */,
+				3E53B6C61BBD82E700A405A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E53B6C61BBD82E700A405A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E53B6C51BBD82E700A405A6 /* SmartHome */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E53B6C41BBD82E700A405A6 /* SmartHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E53B6CC1BBD82E700A405A6 /* Build configuration list for PBXNativeTarget "SmartHome" */;
+			buildPhases = (
+				3E53B6C11BBD82E700A405A6 /* Sources */,
+				3E53B6C21BBD82E700A405A6 /* Frameworks */,
+				3E53B6C31BBD82E700A405A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartHome;
+			productName = SmartHome;
+			productReference = 3E53B6C51BBD82E700A405A6 /* SmartHome */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E53B6BD1BBD82E700A405A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Raffles Gun";
+				TargetAttributes = {
+					3E53B6C41BBD82E700A405A6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 3E53B6C01BBD82E700A405A6 /* Build configuration list for PBXProject "SmartHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E53B6BC1BBD82E700A405A6;
+			productRefGroup = 3E53B6C61BBD82E700A405A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E53B6C41BBD82E700A405A6 /* SmartHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E53B6C11BBD82E700A405A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E07480D1BBD83CC00A17030 /* livolo.cpp in Sources */,
+				3E0748091BBD83CC00A17030 /* livoloDecode.c in Sources */,
+				3E0748061BBD83CC00A17030 /* Makefile in Sources */,
+				3E07480E1BBD83CC00A17030 /* Makefile in Sources */,
+				3E0748051BBD83CC00A17030 /* README.md in Sources */,
+				3E0748071BBD83CC00A17030 /* README.md in Sources */,
+				3E0748081BBD83CC00A17030 /* cJSON.c in Sources */,
+				3E07480A1BBD83CC00A17030 /* Makefile in Sources */,
+				3E07480C1BBD83CC00A17030 /* transmitter.c in Sources */,
+				3E07480B1BBD83CC00A17030 /* sniffer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E53B6CA1BBD82E700A405A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E53B6CB1BBD82E700A405A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E53B6CD1BBD82E700A405A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E53B6CE1BBD82E700A405A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E53B6C01BBD82E700A405A6 /* Build configuration list for PBXProject "SmartHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E53B6CA1BBD82E700A405A6 /* Debug */,
+				3E53B6CB1BBD82E700A405A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E53B6CC1BBD82E700A405A6 /* Build configuration list for PBXNativeTarget "SmartHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E53B6CD1BBD82E700A405A6 /* Debug */,
+				3E53B6CE1BBD82E700A405A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E53B6BD1BBD82E700A405A6 /* Project object */;
+}
