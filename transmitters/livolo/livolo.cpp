@@ -243,8 +243,6 @@ int main(int argc, char **argv)
   int errflg=0;
   int c, j;
   
-  Livolo liv(output_pin);
-  
   if (wiringPiSetup () == -1)
 		exit (1) ;
 
@@ -339,6 +337,8 @@ int main(int argc, char **argv)
 		
 		printf("\n");
 	}
+   
+    Livolo liv(output_pin);
 	
   // 
   // Main LOOP
