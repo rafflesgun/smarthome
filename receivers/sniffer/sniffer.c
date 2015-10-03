@@ -1722,7 +1722,9 @@ int main (int argc, char **argv)
 		//
 		
 		else
-		{
+        {
+            printf("Decode Signals...\n");
+            
 			int ret;
 			// Compute the gap between the p_index and the r_index
 			// Does not work if these are equal....
