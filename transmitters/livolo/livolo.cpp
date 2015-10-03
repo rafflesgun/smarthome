@@ -38,8 +38,8 @@
 
 // Global Variables
 //
-unsigned int group = 23783;							// The 23783 is the group value of my little switch (bit 0-15)
-unsigned char device = 16;							// Key A is number 8, B16 (bit 16-22, with bit 19=1)
+unsigned int group = 31565;							// The 23783 is the group value of my little switch (bit 0-15)
+unsigned char device = 8;							// Key A is number 8, B16 (bit 16-22, with bit 19=1)
 unsigned int loops = 1;
 unsigned int repeats = REPEATS;
 bool inverted = false;
@@ -51,7 +51,7 @@ int fflg = 0;										// Fake flag, for debugging. Init to false. If true, prin
 // Only a few uSecs extra will make the switch fail.
 //
 int p_short = 110;									// 110 works quite OK
-int p_long = 290;									// 300 works quite OK
+int p_long = 300;									// 300 works quite OK
 int p_start = 520;									// 520 works quite OK
 
 Livolo::Livolo(unsigned char pin)

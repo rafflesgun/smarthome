@@ -17,8 +17,6 @@
 		3E07480C1BBD83CC00A17030 /* transmitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E0747FD1BBD83CC00A17030 /* transmitter.c */; };
 		3E07480D1BBD83CC00A17030 /* livolo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E0748011BBD83CC00A17030 /* livolo.cpp */; };
 		3E07480E1BBD83CC00A17030 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 3E0748031BBD83CC00A17030 /* Makefile */; };
-		3E0748171BBD961500A17030 /* livolo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E0748131BBD961500A17030 /* livolo.cpp */; };
-		3E0748181BBD961500A17030 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 3E0748151BBD961500A17030 /* Makefile */; };
 		3E0748211BC02FEE00A17030 /* codesend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E07481A1BC02FEE00A17030 /* codesend.cpp */; };
 		3E0748221BC02FEE00A17030 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 3E07481B1BC02FEE00A17030 /* Makefile */; };
 		3E0748231BC02FEE00A17030 /* RCSwitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E07481C1BC02FEE00A17030 /* RCSwitch.cpp */; };
@@ -56,11 +54,6 @@
 		3E0748021BBD83CC00A17030 /* livolo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = livolo.h; sourceTree = "<group>"; };
 		3E0748031BBD83CC00A17030 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		3E0748041BBD83CC00A17030 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
-		3E0748121BBD961500A17030 /* blink.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blink.ino; sourceTree = "<group>"; };
-		3E0748131BBD961500A17030 /* livolo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = livolo.cpp; sourceTree = "<group>"; };
-		3E0748141BBD961500A17030 /* livolo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = livolo.h; sourceTree = "<group>"; };
-		3E0748151BBD961500A17030 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		3E0748161BBD961500A17030 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		3E07481A1BC02FEE00A17030 /* codesend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = codesend.cpp; sourceTree = "<group>"; };
 		3E07481B1BC02FEE00A17030 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		3E07481C1BC02FEE00A17030 /* RCSwitch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RCSwitch.cpp; sourceTree = "<group>"; };
@@ -110,7 +103,6 @@
 		3E0747FE1BBD83CC00A17030 /* transmitters */ = {
 			isa = PBXGroup;
 			children = (
-				3E07480F1BBD961500A17030 /* livolo2 */,
 				3E0747FF1BBD83CC00A17030 /* livolo */,
 			);
 			path = transmitters;
@@ -126,34 +118,6 @@
 				3E0748041BBD83CC00A17030 /* readme.txt */,
 			);
 			path = livolo;
-			sourceTree = "<group>";
-		};
-		3E07480F1BBD961500A17030 /* livolo2 */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748101BBD961500A17030 /* examples */,
-				3E0748131BBD961500A17030 /* livolo.cpp */,
-				3E0748141BBD961500A17030 /* livolo.h */,
-				3E0748151BBD961500A17030 /* Makefile */,
-				3E0748161BBD961500A17030 /* readme.txt */,
-			);
-			path = livolo2;
-			sourceTree = "<group>";
-		};
-		3E0748101BBD961500A17030 /* examples */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748111BBD961500A17030 /* blink */,
-			);
-			path = examples;
-			sourceTree = "<group>";
-		};
-		3E0748111BBD961500A17030 /* blink */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748121BBD961500A17030 /* blink.ino */,
-			);
-			path = blink;
 			sourceTree = "<group>";
 		};
 		3E0748191BC02FEE00A17030 /* RPi_utils */ = {
@@ -254,12 +218,10 @@
 				3E0748241BC02FEE00A17030 /* README.md in Sources */,
 				3E0748211BC02FEE00A17030 /* codesend.cpp in Sources */,
 				3E0748231BC02FEE00A17030 /* RCSwitch.cpp in Sources */,
-				3E0748181BBD961500A17030 /* Makefile in Sources */,
 				3E0748081BBD83CC00A17030 /* cJSON.c in Sources */,
 				3E0748261BC02FEE00A17030 /* send.cpp in Sources */,
 				3E07480A1BBD83CC00A17030 /* Makefile in Sources */,
 				3E07480C1BBD83CC00A17030 /* transmitter.c in Sources */,
-				3E0748171BBD961500A17030 /* livolo.cpp in Sources */,
 				3E0748221BC02FEE00A17030 /* Makefile in Sources */,
 				3E0748251BC02FEE00A17030 /* RFSniffer.cpp in Sources */,
 				3E07480B1BBD83CC00A17030 /* sniffer.c in Sources */,
