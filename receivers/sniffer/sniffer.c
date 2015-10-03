@@ -1736,7 +1736,8 @@ int main (int argc, char **argv)
 			// 1-bit is wide 290 uSec, and 0-bit is two pulses of 110 uSec
 			//
 			if ( (ret = livolo(p_length)) > 0 )
-			{
+            {
+                printf("Livolo\n");
 				// As we recognized a Livolo message, there is NO need to look at other formats
 				continue;
 			}
