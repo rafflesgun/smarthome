@@ -128,6 +128,7 @@ int main(int argc, char **argv)
     fflg = 0;
     int errflg=0;
     int c, j;
+    int output_pin = 0;
     
     if (wiringPiSetup () == -1)
         exit (1) ;
