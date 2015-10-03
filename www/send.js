@@ -30,5 +30,5 @@ if (libwiringPi.wiringPiSetup() == -1){
 if (mySwitch.isNull()) {
     console.log("Oh no! Couldn't create object!\n");
 } else {
-    libRCSwitch.Livolo_SendButton(mySwitch, remoteId, keyCode);
+    libLivolo.Livolo_SendButton(mySwitch, remoteId, keyCode);
 }
