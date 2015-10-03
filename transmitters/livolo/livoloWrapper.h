@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Raffles Gun. All rights reserved.
 //
 
-#ifndef __livoloWrapper_H
-#define __livoloWrapper_H
+#ifndef LivoloWrapper_H
+#define LivoloWrapper_H
 
 #ifdef __cplusplus
 extern "C" {

@@ -64,6 +64,7 @@
 		3E0748201BC02FEE00A17030 /* send.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = send.cpp; sourceTree = "<group>"; };
 		3E0748271BC0457A00A17030 /* livoloWrapper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = livoloWrapper.c; sourceTree = "<group>"; };
 		3E0748281BC0457A00A17030 /* livoloWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = livoloWrapper.h; sourceTree = "<group>"; };
+		3E07482E1BC04AD800A17030 /* send.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = send.js; sourceTree = "<group>"; };
 		3E53B6C51BBD82E700A405A6 /* SmartHome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmartHome; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -139,9 +140,18 @@
 			path = RPi_utils;
 			sourceTree = "<group>";
 		};
+		3E07482D1BC04ACC00A17030 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				3E07482E1BC04AD800A17030 /* send.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
 		3E53B6BC1BBD82E700A405A6 = {
 			isa = PBXGroup;
 			children = (
+				3E07482D1BC04ACC00A17030 /* www */,
 				3E0748191BC02FEE00A17030 /* RPi_utils */,
 				3E0747F11BBD83CC00A17030 /* README.md */,
 				3E0747F21BBD83CC00A17030 /* receivers */,
