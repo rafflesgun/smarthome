@@ -1728,41 +1728,6 @@ int main (int argc, char **argv)
 			// Does not work if these are equal....
 			p_length = (p_index - r_index + MAXDATASIZE) % MAXDATASIZE;	
 			
-			// --------------------------- KOPOU --------------------------------------
-			// // function kopou returns Binary Count
-			//
-			if ( (ret = kopou(p_length)) > 0 )
-			{
-				// As we recognized a Kopou message, there is NO need to look at other formats
-				continue;
-			}
-			
-			// --------------------------- WT440H --------------------------------------
-			// // function wt440H returns Binary Count
-			//
-			if ( (ret = wt440h(p_length)) > 0 )
-			{
-				// As we recognized a temperature message, there is NO need to look at other formats
-				continue;
-			}
-			
-			// --------------------------- KLIKAAANKLIKUIT -----------------------------
-			// Check for Klikaanklikuit
-			//
-			if ( (ret = kaku(p_length)) > 0 )
-			{
-				// As we recognized an Action message, there is NO need to look at other formats
-				continue;
-			}
-			
-			// --------------------------- ACTION/IMPULS -------------------------------			
-			// Check Impulse
-			//
-			if ( (ret = action(p_length)) > 0 )
-			{
-				// As we recognized an Action/Impuls message, there is NO need to look at other formats
-				continue;
-			}
 			
 			// --------------------------- LIVOLO --------------------------------------			
 			// Check Livolo
