@@ -1529,7 +1529,7 @@ int open_socket(char *host, char *port) {
 
 int main (int argc, char **argv)
 {
-	int r_pin = 2;							// This is the Raspberry Programmable Interrupt Number (PIN)
+	int r_pin = 0;							// This is the Raspberry Programmable Interrupt Number (PIN)
 											// At the moment it is fixed on pin 1										
 	int i;									// counters
 	int c;
