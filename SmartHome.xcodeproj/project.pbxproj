@@ -23,6 +23,7 @@
 		3E0748241BC02FEE00A17030 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3E07481E1BC02FEE00A17030 /* README.md */; };
 		3E0748251BC02FEE00A17030 /* RFSniffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E07481F1BC02FEE00A17030 /* RFSniffer.cpp */; };
 		3E0748261BC02FEE00A17030 /* send.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E0748201BC02FEE00A17030 /* send.cpp */; };
+		3E0748291BC0457A00A17030 /* livoloWrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E0748271BC0457A00A17030 /* livoloWrapper.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,8 @@
 		3E07481E1BC02FEE00A17030 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3E07481F1BC02FEE00A17030 /* RFSniffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RFSniffer.cpp; sourceTree = "<group>"; };
 		3E0748201BC02FEE00A17030 /* send.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = send.cpp; sourceTree = "<group>"; };
+		3E0748271BC0457A00A17030 /* livoloWrapper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = livoloWrapper.c; sourceTree = "<group>"; };
+		3E0748281BC0457A00A17030 /* livoloWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = livoloWrapper.h; sourceTree = "<group>"; };
 		3E53B6C51BBD82E700A405A6 /* SmartHome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmartHome; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -116,6 +119,8 @@
 				3E0748021BBD83CC00A17030 /* livolo.h */,
 				3E0748031BBD83CC00A17030 /* Makefile */,
 				3E0748041BBD83CC00A17030 /* readme.txt */,
+				3E0748271BC0457A00A17030 /* livoloWrapper.c */,
+				3E0748281BC0457A00A17030 /* livoloWrapper.h */,
 			);
 			path = livolo;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 				3E0748221BC02FEE00A17030 /* Makefile in Sources */,
 				3E0748251BC02FEE00A17030 /* RFSniffer.cpp in Sources */,
 				3E07480B1BBD83CC00A17030 /* sniffer.c in Sources */,
+				3E0748291BC0457A00A17030 /* livoloWrapper.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
