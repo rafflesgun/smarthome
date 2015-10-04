@@ -1,0 +1,6 @@
+.plugin-container.gpio.input:after {
+  content: "Raspberry PI GPIO Input"
+}
+.plugin-container.gpio.output:after {
+  content: "Raspberry PI GPIO Output"
+}

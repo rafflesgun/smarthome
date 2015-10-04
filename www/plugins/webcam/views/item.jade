@@ -1,0 +1,13 @@
+each item in items
+  div.plugin-container.webcam
+    - if (item.method == 'streamer')
+      p
+        strong #{item.input}&nbsp;
+        span.muted &nbsp;Webcam
+      div.streamer-img
+        img.streamer(src="/img/white.jpg", data-id="#{item._id}.jpg")
+    - if (item.method == 'motion')
+      p
+        strong &nbsp;Motion Stream
+      div.motion-img
+        iframe.motion(src="/webcam/motion/#{item._id}")

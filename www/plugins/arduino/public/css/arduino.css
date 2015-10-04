@@ -1,0 +1,12 @@
+.plugin-container.arduino.rcswitch:after {
+  content: "Arduino RC Switch";
+}
+.plugin-container.arduino.sensor:after {
+  content: "Arduino Sensor";
+}
+.plugin-container.arduino.irremote:after {
+  content: "Arduino IR Remote";
+}
+.plugin-container.arduino.led:after {
+  content: "Arduino LED";
+}

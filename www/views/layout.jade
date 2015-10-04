@@ -1,0 +1,80 @@
+doctype 5
+html
+  head
+    title heimcontrol.js | #{title}
+    link(rel='stylesheet', href='#{theme}') 
+    link(rel='stylesheet', href='/css/bootstrap-responsive.min.css')
+    link(rel='stylesheet', href='/css/font-awesome.min.css')
+    link(rel='stylesheet', href='/css/heimcontrol.css')
+    link(rel='stylesheet', href='/css/plugins.css')
+    link(rel='icon', href='/heimcontrol.ico', type='image/x-icon')
+    link(rel='apple-touch.icon', sizes='57x57', href='/apple-touch.icon-57x57.png')
+    link(rel='apple-touch.icon', sizes='72x72', href='/apple-touch.icon-72x72.png')
+    link(rel='apple-touch.icon', sizes='114x114', href='/apple-touch.icon-114x114.png')
+    link(rel='apple-touch.icon', sizes='144x144', href='/apple-touch.icon-144x144.png')
+    script(data-main='/js/main', src='/js/require-jquery.js')
+    meta(name="viewport",content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+  body
+    div.navbar.navbar-inverse.navbar-fixed-top
+      div.navbar-inner
+        div.container
+          - if ((typeof(hide_menubar) == 'undefined') || (hide_menubar == false))
+            button.btn.btn-navbar.navigation(data-toggle="collapse", data-target=".nav-collapse")
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+          a.brand(href="/") heimcontrol.js
+          - if (typeof(hide_menubar) == 'undefined')
+            div.nav-collapse.collapse.navigation
+              ul.nav#bar-menu-left
+                li(class=(title === 'Home' ? 'active' : ''))                
+                  a(href="/")
+                    i.icon-home  
+                    | &nbsp;Home
+                li.dropdown(class=(title.indexOf('Settings')!==-1 ? 'active' : ''))                
+                  a.dropdown-toggle(href="#",data-toggle="dropdown",role="button",id="dropdown")
+                    i.icon-cogs 
+                    | &nbsp;Settings&nbsp;
+                    b.caret
+                  ul.dropdown-menu(role="menu",aria-labelledby="dropdown")
+                    li
+                      a(href="/settings")
+                        i.icon-cog &nbsp;
+                        | heimcontrol.js
+                    li.divider(role="presentation")
+                    each plugin in plugins
+                      li
+                        a(href="/settings/#{plugin.id}") 
+                          - if (plugin.icon)
+                            i(class="#{plugin.icon}") &nbsp;
+                          | &nbsp;#{plugin.name}
+              ul.nav.pull-right#bar-menu-right
+                li
+                  a.btn-logout(href="/logout") 
+                    i.icon-signout &nbsp;
+                    | Logout
+    block content
+    footer.footer
+      div.container
+        p Created by 
+          a(href="http://about.ni-c.de") Willi Thiel
+          | , licensed under&nbsp;
+          a(href="https://github.com/ni-c/heimcontrol.js/blob/master/LICENSE") MIT License
+          | .
+        p Crafted using  
+          a(href="http://jade-lang.com/") Jade
+          | ,&nbsp;
+          a(href="http://twitter.github.com/bootstrap/") Bootstrap&nbsp;
+          | &amp;&nbsp;
+          a(href="http://fortawesome.github.com/Font-Awesome/") font-awesome
+          |.
+        p Running with&nbsp;
+          a(href="http://nodejs.org/") node.js
+          | ,&nbsp;
+          a(href="http://socket.io/") socket.io
+          | ,&nbsp;
+          a(href="http://expressjs.com/") express
+          | ,&nbsp;
+          a(href="http://www.mongodb.org/") mongodb
+          | .
+        p And a hell of a lot of other open source projects.

@@ -1,0 +1,6 @@
+.plugin-container.livolo.input:after {
+  content: "Raspberry PI Livolo Input"
+}
+.plugin-container.livolo.output:after {
+  content: "Raspberry PI Livolo Output"
+}
