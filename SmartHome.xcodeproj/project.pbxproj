@@ -132,6 +132,8 @@
 		3E0748BA1BC0C68900A17030 /* settings.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = settings.jade; sourceTree = "<group>"; };
 		3E53B6C51BBD82E700A405A6 /* SmartHome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmartHome; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7A347B1C50C04C00D8D2F7 /* livolo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = livolo.js; sourceTree = "<group>"; };
+		3E7A347C1C50DC5100D8D2F7 /* pi-livolo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "pi-livolo.js"; sourceTree = "<group>"; };
+		3E7A347E1C50DC5800D8D2F7 /* pi-livolo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "pi-livolo.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -486,9 +488,19 @@
 		3E7A347A1C50C04C00D8D2F7 /* pi-livolo */ = {
 			isa = PBXGroup;
 			children = (
+				3E7A347D1C50DC5800D8D2F7 /* test */,
+				3E7A347C1C50DC5100D8D2F7 /* pi-livolo.js */,
 				3E7A347B1C50C04C00D8D2F7 /* livolo.js */,
 			);
 			path = "pi-livolo";
+			sourceTree = "<group>";
+		};
+		3E7A347D1C50DC5800D8D2F7 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A347E1C50DC5800D8D2F7 /* pi-livolo.js */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
