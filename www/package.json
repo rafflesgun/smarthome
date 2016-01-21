@@ -21,6 +21,6 @@
     "wake_on_lan": "= 0.0.3",
     "delivery": "= 0.0.3",
     "ffi": "= 2.0.0",
-    "pi-livolo": "http://github.com/rafflesgun/pi-livolo/#master"
+    "pi-livolo": "https://github.com/rafflesgun/pi-livolo/tarball/master"
   }
 }
