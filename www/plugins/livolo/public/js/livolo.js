@@ -7,7 +7,7 @@ var libwiringPi = ffi.Library('/usr/local/lib/libwiringPi', {
                               'delayMicroseconds' :  [ 'void', ['int', 'int'] ]
                               })
 
-var libLivolo = ffi.Library('./plugins/livolo/libs/libLivoloWrapper', {
+var libLivolo = ffi.Library('plugins/livolo/libs/libLivoloWrapper', {
                               'newLivolo' : ['pointer', ['char'] ],
                               'Livolo_SendButton': ['void', [ 'pointer', 'int', 'char' ] ]
                               })
