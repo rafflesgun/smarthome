@@ -12,15 +12,20 @@ var libLivolo = ffi.Library('../../libs/libLivoloWrapper', {
                               'Livolo_SendButton': ['void', [ 'pointer', 'int', 'char' ] ]
                               })
 
-if (process.argv.length < 4) {
+if (process.argv.length < 5) {
     console.log('Arguments: Livolo Switch Code')
     process.exit()
 }
 
-var PIN = 1;
-var remoteId = parseInt(process.argv[2]);
-var keyCode = parseInt(process.argv[3]);
+var PIN = parseInt(process.argv[2]);
+var remoteId = parseInt(process.argv[3]);
+var keyCode = parseInt(process.argv[4]);
 var mySwitch = libLivolo.newLivolo(PIN);
+
+
+console.log("PIN: " + PIN);
+console.log("remoteId: " + remoteId);
+console.log("keyCode: " + keyCode);
 
 if (libwiringPi.wiringPiSetup() == -1){
     return 1;
