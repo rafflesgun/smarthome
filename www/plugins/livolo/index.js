@@ -32,7 +32,8 @@ define([ 'pi-livolo' ], function(livolo) {
 
     app.get('sockets').on('connection', function(socket) {
       // Livolo toggle
-      socket.on('Livolo-toggle', function(data) {
+      socket.on('livolo-toggle', function(data) {
+        console.log('socket Livolo-toggle');
         that.toggle(data);
       });
 
@@ -49,9 +50,12 @@ define([ 'pi-livolo' ], function(livolo) {
    */
   Livolo.prototype.toggle = function(data) {
     var that = this;
+    console.log('toggle');
     this.pluginHelper.findItem(this.collection, data.id, function(err, item, collection) {
       item.value = data.value + '';
+      console.log('item ' + item.value);
       livolo.open(parseInt(item.pin), function(err) {
+        console.log('GroupId:' + item.groupId + '; DeviceId:' + item.deviceId + '; Pin:' + item.pin);
         livolo.write(parseInt(item.groupId), parseInt(item.deviceId), function() {
           livolo.close(parseInt(item.pin));
           that.values[item._id] = item.value;

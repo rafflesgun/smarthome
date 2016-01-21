@@ -13,18 +13,10 @@ require([ "jquery", "/socket.io/socket.io.js" ], function() {
         
         var socket = io.connect();
         
-        registerGpioToggles();
-        
+        registerLivoloToggles();
+
         /**
-         * GPIO input change
-         */
-        socket.on('livolo-input', function(data) {
-                  $('.gpiostatus[data-id="' + data.id + '"]').addClass('hide');
-                  $('.gpiostatus[data-id="' + data.id + '"][data-value="' + data.value + '"]').removeClass('hide');
-                  });
-        
-        /**
-         * GPIO output change
+         * Livolo change
          */
         socket.on('livolo-output', function(data) {
                   $('button[data-id="' + data.id + '"]').removeClass('active');
