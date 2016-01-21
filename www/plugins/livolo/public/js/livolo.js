@@ -2,8 +2,8 @@
  * Livolo on/off toggles
  */
 function registerLivoloToggles() {
-    $('button.gpio.toggle').unbind('click.toggle');
-    $('button.gpio.toggle').bind('click.toggle', function()  {
+    $('button.livolo.toggle').unbind('click.toggle');
+    $('button.livolo.toggle').bind('click.toggle', function()  {
                                  var button = $(this);
                                  button.parent().children('input').attr('value', button.attr('data-value'));
                                  });

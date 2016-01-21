@@ -1,8 +1,8 @@
 {
-  "name": "heimcontrol.js",
-  "description": "heimcontrol.js: Home automation with Node.js",
+  "name": "Lazy Blaster",
+  "description": "Lazy Blaster",
   "version": "0.0.1",
-  "url": "http://ni-c.github.com/homecontrol.js",
+  "url": "",
   "options": {
     "outdir": "./docs"
   }
