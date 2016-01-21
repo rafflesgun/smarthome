@@ -26,6 +26,14 @@ div.container
               option(value="16",selected=(item.pin == '16')) PIN 16
               option(value="18",selected=(item.pin == '18')) PIN 18
               option(value="22",selected=(item.pin == '22')) PIN 22
+              option(value="29",selected=(item.pin == '29')) PIN 29
+              option(value="31",selected=(item.pin == '31')) PIN 31
+              option(value="33",selected=(item.pin == '33')) PIN 33
+              option(value="35",selected=(item.pin == '35')) PIN 35
+              option(value="36",selected=(item.pin == '36')) PIN 36
+              option(value="37",selected=(item.pin == '37')) PIN 37
+              option(value="38",selected=(item.pin == '38')) PIN 38
+              option(value="40",selected=(item.pin == '40')) PIN 40
             label(for="groupId") Group ID:
             input(type="text", name="data[#{i}][groupId]", placeholder="31565", value=(item.groupId ? item.groupId : '31565'))
             label(for="deviceId") Device ID:
@@ -59,6 +67,14 @@ div.plugin-container.livolo.settings#template(style="display: none;")
     option(value="16") PIN 16
     option(value="18") PIN 18
     option(value="22") PIN 22
+    option(value="29") PIN 29
+    option(value="31") PIN 31
+    option(value="33") PIN 33
+    option(value="35") PIN 35
+    option(value="36") PIN 36
+    option(value="37") PIN 37
+    option(value="38") PIN 38
+    option(value="40") PIN 40
   label(for="groupId") Group ID:
   input(type="text", name="data[%i%][groupId]", placeholder="31565", value='31565')
   label(for="deviceId") Device ID:
