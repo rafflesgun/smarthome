@@ -71,31 +71,11 @@
 		3E0748331BC0C5B800A17030 /* PluginHelper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = PluginHelper.js; sourceTree = "<group>"; };
 		3E0748341BC0C5B800A17030 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3E0748351BC0C5B800A17030 /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
-		3E0748381BC0C5B800A17030 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
-		3E07483B1BC0C5B800A17030 /* arduino.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = arduino.css; sourceTree = "<group>"; };
-		3E07483D1BC0C5B800A17030 /* arduino.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = arduino.js; sourceTree = "<group>"; };
-		3E07483F1BC0C5B800A17030 /* item.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = item.jade; sourceTree = "<group>"; };
-		3E0748401BC0C5B800A17030 /* settings.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = settings.jade; sourceTree = "<group>"; };
 		3E0748421BC0C5B800A17030 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		3E0748451BC0C5B800A17030 /* gpio.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = gpio.css; sourceTree = "<group>"; };
 		3E0748471BC0C5B800A17030 /* gpio.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gpio.js; sourceTree = "<group>"; };
 		3E0748491BC0C5B800A17030 /* item.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = item.jade; sourceTree = "<group>"; };
 		3E07484A1BC0C5B800A17030 /* settings.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = settings.jade; sourceTree = "<group>"; };
-		3E07484E1BC0C5B800A17030 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
-		3E0748511BC0C5B800A17030 /* rgblights.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rgblights.css; sourceTree = "<group>"; };
-		3E0748531BC0C5B800A17030 /* rgblights.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rgblights.js; sourceTree = "<group>"; };
-		3E0748551BC0C5B800A17030 /* item.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = item.jade; sourceTree = "<group>"; };
-		3E0748561BC0C5B800A17030 /* settings.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = settings.jade; sourceTree = "<group>"; };
-		3E0748581BC0C5B800A17030 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
-		3E07485B1BC0C5B800A17030 /* wakeonlan.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = wakeonlan.css; sourceTree = "<group>"; };
-		3E07485D1BC0C5B800A17030 /* wakeonlan.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = wakeonlan.js; sourceTree = "<group>"; };
-		3E07485F1BC0C5B800A17030 /* item.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = item.jade; sourceTree = "<group>"; };
-		3E0748601BC0C5B800A17030 /* settings.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = settings.jade; sourceTree = "<group>"; };
-		3E0748621BC0C5B800A17030 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
-		3E0748651BC0C5B800A17030 /* webcam.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = webcam.css; sourceTree = "<group>"; };
-		3E0748671BC0C5B800A17030 /* webcam.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = webcam.js; sourceTree = "<group>"; };
-		3E0748691BC0C5B800A17030 /* item.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = item.jade; sourceTree = "<group>"; };
-		3E07486A1BC0C5B800A17030 /* settings.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = settings.jade; sourceTree = "<group>"; };
 		3E07486C1BC0C5B800A17030 /* apple-touch-icon-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-114x114.png"; sourceTree = "<group>"; };
 		3E07486D1BC0C5B800A17030 /* apple-touch-icon-144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-144x144.png"; sourceTree = "<group>"; };
 		3E07486E1BC0C5B800A17030 /* apple-touch-icon-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-57x57.png"; sourceTree = "<group>"; };
@@ -265,58 +245,10 @@
 		3E0748361BC0C5B800A17030 /* plugins */ = {
 			isa = PBXGroup;
 			children = (
-				3E0748371BC0C5B800A17030 /* arduino */,
 				3E0748411BC0C5B800A17030 /* gpio */,
 				3E07484B1BC0C5B800A17030 /* livolo */,
-				3E07484D1BC0C5B800A17030 /* rgblights */,
-				3E0748571BC0C5B800A17030 /* wakeonlan */,
-				3E0748611BC0C5B800A17030 /* webcam */,
 			);
 			path = plugins;
-			sourceTree = "<group>";
-		};
-		3E0748371BC0C5B800A17030 /* arduino */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748381BC0C5B800A17030 /* index.js */,
-				3E0748391BC0C5B800A17030 /* public */,
-				3E07483E1BC0C5B800A17030 /* views */,
-			);
-			path = arduino;
-			sourceTree = "<group>";
-		};
-		3E0748391BC0C5B800A17030 /* public */ = {
-			isa = PBXGroup;
-			children = (
-				3E07483A1BC0C5B800A17030 /* css */,
-				3E07483C1BC0C5B800A17030 /* js */,
-			);
-			path = public;
-			sourceTree = "<group>";
-		};
-		3E07483A1BC0C5B800A17030 /* css */ = {
-			isa = PBXGroup;
-			children = (
-				3E07483B1BC0C5B800A17030 /* arduino.css */,
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		3E07483C1BC0C5B800A17030 /* js */ = {
-			isa = PBXGroup;
-			children = (
-				3E07483D1BC0C5B800A17030 /* arduino.js */,
-			);
-			path = js;
-			sourceTree = "<group>";
-		};
-		3E07483E1BC0C5B800A17030 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				3E07483F1BC0C5B800A17030 /* item.jade */,
-				3E0748401BC0C5B800A17030 /* settings.jade */,
-			);
-			path = views;
 			sourceTree = "<group>";
 		};
 		3E0748411BC0C5B800A17030 /* gpio */ = {
@@ -371,138 +303,6 @@
 				3E0748B81BC0C68900A17030 /* views */,
 			);
 			path = livolo;
-			sourceTree = "<group>";
-		};
-		3E07484D1BC0C5B800A17030 /* rgblights */ = {
-			isa = PBXGroup;
-			children = (
-				3E07484E1BC0C5B800A17030 /* index.js */,
-				3E07484F1BC0C5B800A17030 /* public */,
-				3E0748541BC0C5B800A17030 /* views */,
-			);
-			path = rgblights;
-			sourceTree = "<group>";
-		};
-		3E07484F1BC0C5B800A17030 /* public */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748501BC0C5B800A17030 /* css */,
-				3E0748521BC0C5B800A17030 /* js */,
-			);
-			path = public;
-			sourceTree = "<group>";
-		};
-		3E0748501BC0C5B800A17030 /* css */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748511BC0C5B800A17030 /* rgblights.css */,
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		3E0748521BC0C5B800A17030 /* js */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748531BC0C5B800A17030 /* rgblights.js */,
-			);
-			path = js;
-			sourceTree = "<group>";
-		};
-		3E0748541BC0C5B800A17030 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748551BC0C5B800A17030 /* item.jade */,
-				3E0748561BC0C5B800A17030 /* settings.jade */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		3E0748571BC0C5B800A17030 /* wakeonlan */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748581BC0C5B800A17030 /* index.js */,
-				3E0748591BC0C5B800A17030 /* public */,
-				3E07485E1BC0C5B800A17030 /* views */,
-			);
-			path = wakeonlan;
-			sourceTree = "<group>";
-		};
-		3E0748591BC0C5B800A17030 /* public */ = {
-			isa = PBXGroup;
-			children = (
-				3E07485A1BC0C5B800A17030 /* css */,
-				3E07485C1BC0C5B800A17030 /* js */,
-			);
-			path = public;
-			sourceTree = "<group>";
-		};
-		3E07485A1BC0C5B800A17030 /* css */ = {
-			isa = PBXGroup;
-			children = (
-				3E07485B1BC0C5B800A17030 /* wakeonlan.css */,
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		3E07485C1BC0C5B800A17030 /* js */ = {
-			isa = PBXGroup;
-			children = (
-				3E07485D1BC0C5B800A17030 /* wakeonlan.js */,
-			);
-			path = js;
-			sourceTree = "<group>";
-		};
-		3E07485E1BC0C5B800A17030 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				3E07485F1BC0C5B800A17030 /* item.jade */,
-				3E0748601BC0C5B800A17030 /* settings.jade */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		3E0748611BC0C5B800A17030 /* webcam */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748621BC0C5B800A17030 /* index.js */,
-				3E0748631BC0C5B800A17030 /* public */,
-				3E0748681BC0C5B800A17030 /* views */,
-			);
-			path = webcam;
-			sourceTree = "<group>";
-		};
-		3E0748631BC0C5B800A17030 /* public */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748641BC0C5B800A17030 /* css */,
-				3E0748661BC0C5B800A17030 /* js */,
-			);
-			path = public;
-			sourceTree = "<group>";
-		};
-		3E0748641BC0C5B800A17030 /* css */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748651BC0C5B800A17030 /* webcam.css */,
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		3E0748661BC0C5B800A17030 /* js */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748671BC0C5B800A17030 /* webcam.js */,
-			);
-			path = js;
-			sourceTree = "<group>";
-		};
-		3E0748681BC0C5B800A17030 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				3E0748691BC0C5B800A17030 /* item.jade */,
-				3E07486A1BC0C5B800A17030 /* settings.jade */,
-			);
-			path = views;
 			sourceTree = "<group>";
 		};
 		3E07486B1BC0C5B800A17030 /* public */ = {
