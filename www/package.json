@@ -20,6 +20,7 @@
     "ping": "= 0.1.7",
     "wake_on_lan": "= 0.0.3",
     "delivery": "= 0.0.3",
-    "ffi": "= 2.0.0"
+    "ffi": "= 2.0.0",
+    "pi-livolo": "http://github.com/rafflesgun/pi-livolo/#master"
   }
 }
