@@ -1,23 +1,11 @@
 each item in items
-  div.plugin-container.livolo(class=item.direction)
+  div.plugin-container.livolo(class=item.groupId)
     p.description
-      - direction = item.direction.charAt(0).toUpperCase() + item.direction.slice(1);
-      - if (item.description)
-        span.muted #{direction}: 
-        strong #{item.description} 
-        small.muted (PIN #{item.pin}) 
-      - else 
-        span.muted #{direction}:  
-        strong PIN #{item.pin} 
-    -if (item.direction == 'input') 
-      div
-        span.label.label-success.label-large.livolostatus(data-id="#{item._id}", data-value="1", class=(item.value == '0' ? 'hide' : ''))
-          i.icon-circle
-          | Up
-        span.label.label-important.label-large.livolostatus(data-id="#{item._id}", data-value="0", class=(item.value == '1' ? 'hide' : ''))
-          i.icon-circle-blank
-          | Down
-    - else
+      span.muted Group ID:
+      strong #{item.groupId}
+      span.muted Device ID:
+      strong #{item.deviceId}
+      small (PIN #{item.pin})
       div.btn-group(data-toggle="buttons-radio")
         button.btn.btn-large.socket(type="button", data-socket="livolo-toggle", data-id="#{item._id}", data-value="1", class=(item.value == '1' ? 'active' : ''))
           i.icon-circle

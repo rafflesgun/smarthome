@@ -11,27 +11,13 @@ div.container
     form(action="/settings/livolo", method="post")
       div#livolo
         each item, i in items
-          div.plugin-container.gpio.settings(id="#{item._id}")
+          div.plugin-container.livolo.settings(id="#{item._id}")
             button.btn.btn-danger.pull-right.delete(type="button",data-delete="#{item._id}")
               i.icon-trash.icon-large
               |  Delete
-            label(for="description") Description (optional):
-            input(type="text", name="data[#{i}][description]", placeholder="Light", value=(item.description ? item.description : ''))
-            label(for="direction") Direction:
-            div.btn-group.direction(data-toggle="buttons-radio")
-              button.btn.livolo.toggle(type="button", data-value="output", class=(item.direction == 'output' ? 'active' : ''))
-                i.icon-signout &nbsp;
-                | Output
-              button.btn.btn-inverse.livolo.toggle(type="button", data-value="input", class=(item.direction == 'input' ? 'active' : ''))
-                i.icon-signin &nbsp;
-                | Input
-              input(type="hidden", name="data[#{i}][direction]", value="#{item.direction}")
-            br
-            br
             label(for="pin") Livolo Pin:
             select(name="data[#{i}][pin]")
               option(disabled="disabled",selected=(item.pin == '0')) Choose PIN
-              option(value="1",selected=(item.pin == '1')) PIN 1
               option(value="7",selected=(item.pin == '7')) PIN 7
               option(value="11",selected=(item.pin == '11')) PIN 11
               option(value="12",selected=(item.pin == '12')) PIN 12
@@ -40,6 +26,10 @@ div.container
               option(value="16",selected=(item.pin == '16')) PIN 16
               option(value="18",selected=(item.pin == '18')) PIN 18
               option(value="22",selected=(item.pin == '22')) PIN 22
+            label(for="groupId") Group ID:
+            input(type="text", name="data[#{i}][groupId]", placeholder="31565", value=(item.groupId ? item.groupId : '31565'))
+            label(for="deviceId") Device ID:
+            input(type="text", name="data[#{i}][deviceId]", placeholder="", value=(item.deviceId ? item.deviceId : ''))
             input(type="hidden", name="data[#{i}][_id]", value="#{item._id}")
             input(type="hidden", name="data[#{i}][value]", value="0")
           
@@ -58,23 +48,9 @@ div.plugin-container.livolo.settings#template(style="display: none;")
   button.btn.btn-danger.pull-right.delete(type="button")
     i.icon-trash.icon-large
     |  Delete
-  label(for="description") Description (optional):
-  input(type="text", name="data[%i%][description]", placeholder="Light")
-  label(for="direction") Direction:
-  div.btn-group.direction(data-toggle="buttons-radio")
-    button.btn.livolo.toggle(type="button", data-value="output", class="active")
-      i.icon-signout &nbsp;
-      | Output
-    button.btn.btn-inverse.livolo.toggle(type="button", data-value="input")
-      i.icon-signin &nbsp;
-      | Input
-  input(type="hidden", name="data[%i%][direction]", value="output")
-  br
-  br
   label(for="pin") Livolo Pin:
   select(name="data[%i%][pin]")
     option(disabled="disabled",selected=true) Choose PIN
-    option(value="1") PIN 1
     option(value="7") PIN 7
     option(value="11") PIN 11
     option(value="12") PIN 12
@@ -83,4 +59,8 @@ div.plugin-container.livolo.settings#template(style="display: none;")
     option(value="16") PIN 16
     option(value="18") PIN 18
     option(value="22") PIN 22
+  label(for="groupId") Group ID:
+  input(type="text", name="data[%i%][groupId]", placeholder="31565", value='31565')
+  label(for="deviceId") Device ID:
+  input(type="text", name="data[%i%][deviceId]", placeholder="", value='')
   input(type="hidden", name="data[%i%][value]", value="0")
