@@ -31,6 +31,7 @@ div.container
             label(for="pin") Livolo Pin:
             select(name="data[#{i}][pin]")
               option(disabled="disabled",selected=(item.pin == '0')) Choose PIN
+              option(value="1",selected=(item.pin == '1')) PIN 1
               option(value="7",selected=(item.pin == '7')) PIN 7
               option(value="11",selected=(item.pin == '11')) PIN 11
               option(value="12",selected=(item.pin == '12')) PIN 12
@@ -73,6 +74,7 @@ div.plugin-container.livolo.settings#template(style="display: none;")
   label(for="pin") Livolo Pin:
   select(name="data[%i%][pin]")
     option(disabled="disabled",selected=true) Choose PIN
+    option(value="1") PIN 1
     option(value="7") PIN 7
     option(value="11") PIN 11
     option(value="12") PIN 12
