@@ -19,8 +19,8 @@ require([ "jquery", "/socket.io/socket.io.js" ], function() {
          * GPIO input change
          */
         socket.on('livolo-input', function(data) {
-                  $('.gpiostatus[data-id="' + data.id + '"]').addClass('hide');
-                  $('.gpiostatus[data-id="' + data.id + '"][data-value="' + data.value + '"]').removeClass('hide');
+                  $('.livolostatus[data-id="' + data.id + '"]').addClass('hide');
+                  $('.livolostatus[data-id="' + data.id + '"][data-value="' + data.value + '"]').removeClass('hide');
                   });
         
         /**
