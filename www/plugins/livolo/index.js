@@ -51,8 +51,8 @@ define([ 'pi-livolo' ], function(livolo) {
     var that = this;
     this.pluginHelper.findItem(this.collection, data.id, function(err, item, collection) {
       item.value = data.value + '';
-      livolo.open(parseInt(item.pin), "output", function(err) {
-        livolo.write(parseInt(item.pin), parseInt(item.value), function() {
+      livolo.open(parseInt(item.pin), function(err) {
+        livolo.write(parseInt(item.groupId), parseInt(item.deviceId), function() {
           livolo.close(parseInt(item.pin));
           that.values[item._id] = item.value;
           that.app.get('sockets').emit('livolo-output', {
@@ -77,16 +77,14 @@ define([ 'pi-livolo' ], function(livolo) {
           direction: 'input'
         }).toArray(function(err, result) {
           result.forEach(function(item) {
-            livolo.setDirection(parseInt(item.pin), "input", function(err) {
-              livolo.read(parseInt(item.pin), function(err, value) {
-                if (!err) {
-                  that.values[item._id] = value;
-                  that.app.get('sockets').emit('livolo-input', {
-                    id: item._id,
-                    value: value
-                  });
-                }
-              });
+            livolo.read(parseInt(item.groupId), parseInt(item.deviceId), function(err, value) {
+              if (!err) {
+                that.values[item._id] = value;
+                that.app.get('sockets').emit('livolo-input', {
+                  id: item._id,
+                  value: value
+                });
+              }
             });
           });
         });

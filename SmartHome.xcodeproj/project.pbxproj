@@ -151,6 +151,7 @@
 		3E0748B91BC0C68900A17030 /* item.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = item.jade; sourceTree = "<group>"; };
 		3E0748BA1BC0C68900A17030 /* settings.jade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = settings.jade; sourceTree = "<group>"; };
 		3E53B6C51BBD82E700A405A6 /* SmartHome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmartHome; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7A347B1C50C04C00D8D2F7 /* livolo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = livolo.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +229,7 @@
 		3E07482D1BC04ACC00A17030 /* www */ = {
 			isa = PBXGroup;
 			children = (
+				3E7A34791C50C04C00D8D2F7 /* node_modules */,
 				3E07482F1BC0C5B800A17030 /* config */,
 				3E0748311BC0C5B800A17030 /* heimcontrol.js */,
 				3E0748321BC0C5B800A17030 /* libs */,
@@ -364,7 +366,6 @@
 		3E07484B1BC0C5B800A17030 /* livolo */ = {
 			isa = PBXGroup;
 			children = (
-				3E0748BB1BC0C74600A17030 /* libs */,
 				3E0748B11BC0C68900A17030 /* index.js */,
 				3E0748B21BC0C68900A17030 /* public */,
 				3E0748B81BC0C68900A17030 /* views */,
@@ -654,13 +655,6 @@
 			path = views;
 			sourceTree = "<group>";
 		};
-		3E0748BB1BC0C74600A17030 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = libs;
-			sourceTree = "<group>";
-		};
 		3E53B6BC1BBD82E700A405A6 = {
 			isa = PBXGroup;
 			children = (
@@ -679,6 +673,22 @@
 				3E53B6C51BBD82E700A405A6 /* SmartHome */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3E7A34791C50C04C00D8D2F7 /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A347A1C50C04C00D8D2F7 /* pi-livolo */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		3E7A347A1C50C04C00D8D2F7 /* pi-livolo */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A347B1C50C04C00D8D2F7 /* livolo.js */,
+			);
+			path = "pi-livolo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
