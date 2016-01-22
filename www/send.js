@@ -20,6 +20,11 @@ if (process.argv.length < 5) {
 var PIN = parseInt(process.argv[2]);
 var remoteId = parseInt(process.argv[3]);
 var keyCode = parseInt(process.argv[4]);
+
+console.log("PIN: " + PIN);
+console.log("remoteId: " + remoteId);
+console.log("keyCode: " + keyCode);
+
 var mySwitch = libLivolo.newLivolo(PIN);
 
 if (libwiringPi.wiringPiSetup() == -1){
