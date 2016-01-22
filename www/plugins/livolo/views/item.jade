@@ -6,10 +6,18 @@ each item in items
       span.muted Device ID:
       strong #{item.deviceId}
       small (PIN #{item.pin})
-      div.btn-group(data-toggle="buttons-radio")
-        button.btn.btn-large.socket(type="button", data-socket="livolo-toggle", data-id="#{item._id}", data-value="1", class=(item.value == '1' ? 'active' : ''))
+      div(data-toggle="buttons-radio")
+    - if (item.deviceId == "42" || item.deviceId == "106")
+        button.btn.btn-large.socket(type="button", data-socket="livolo-toggle", data-id="#{item._id}", data-value="1", class="hide")
           i.icon-circle
           | On
-        button.btn.btn-inverse.btn-large.socket(type="button", data-socket="livolo-toggle", data-id="#{item._id}", data-value="0", class=(item.value == '0' ? 'active' : ''))
+        button.btn.btn-inverse.btn-large.socket(type="button", data-socket="livolo-toggle", data-id="#{item._id}", data-value="0", class="")
+          i.icon-circle-blank
+          | Off
+    - else
+        button.btn.btn-large.socket(type="button", data-socket="livolo-toggle", data-id="#{item._id}", data-value="1", class=(item.value == '0' ? 'hide' : ''))
+          i.icon-circle
+          | On
+        button.btn.btn-inverse.btn-large.socket(type="button", data-socket="livolo-toggle", data-id="#{item._id}", data-value="0", class=(item.value == '1' ? 'hide' : ''))
           i.icon-circle-blank
           | Off

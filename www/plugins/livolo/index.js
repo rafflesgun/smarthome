@@ -57,6 +57,9 @@ define([ 'pi-livolo' ], function(livolo) {
       console.log('GroupId:' + item.groupId + '; DeviceId:' + item.deviceId + '; Pin:' + item.pin);
       livolo.toggle(parseInt(item.pin), parseInt(item.groupId), parseInt(item.deviceId));
 
+      if (item.deviceId == '42' || item.deviceId == '106')
+       item.value = 1;
+
       that.values[item._id] = item.value;
       that.app.get('sockets').emit('livolo-output', {
         id: item._id,

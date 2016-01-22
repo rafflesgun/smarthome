@@ -37,7 +37,24 @@ div.container
             label(for="groupId") Group ID:
             input(type="text", name="data[#{i}][groupId]", placeholder="31565", value=(item.groupId ? item.groupId : '31565'))
             label(for="deviceId") Device ID:
-            input(type="text", name="data[#{i}][deviceId]", placeholder="", value=(item.deviceId ? item.deviceId : ''))
+            select(name="data[#{i}][deviceId]")
+              optgroup(label="Full Remote")
+                option(value="0",selected=(item.deviceId == '0')) #1
+                option(value="96",selected=(item.deviceId == '96')) #2
+                option(value="120",selected=(item.deviceId == '120')) #3
+                option(value="24",selected=(item.deviceId == '24')) #4
+                option(value="80",selected=(item.deviceId == '80')) #5
+                option(value="48",selected=(item.deviceId == '48')) #6
+                option(value="108",selected=(item.deviceId == '108')) #7
+                option(value="12",selected=(item.deviceId == '12')) #8
+                option(value="72",selected=(item.deviceId == '72')) #9
+                option(value="40",selected=(item.deviceId == '40')) #10
+                option(value="106",selected=(item.deviceId == '106')) #OFF
+              optgroup(label="Mini Remote")
+                option(value="8",selected=(item.deviceId == '8')) #A
+                option(value="16",selected=(item.deviceId == '16')) #B
+                option(value="56",selected=(item.deviceId == '56')) #C
+                option(value="42",selected=(item.deviceId == '42')) #OFF
             input(type="hidden", name="data[#{i}][_id]", value="#{item._id}")
             input(type="hidden", name="data[#{i}][value]", value="0")
           

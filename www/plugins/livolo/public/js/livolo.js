@@ -19,7 +19,7 @@ require([ "jquery", "/socket.io/socket.io.js" ], function() {
          * Livolo change
          */
         socket.on('livolo-output', function(data) {
-                  $('button[data-id="' + data.id + '"]').removeClass('active');
-                  $('button[data-id="' + data.id + '"][data-value="' + data.value + '"]').addClass('active');
+                  $('button[data-id="' + data.id + '"]').removeClass('hide');
+                  $('button[data-id="' + data.id + '"][data-value="' + data.value + '"]').addClass('hide');
                   });
         });
