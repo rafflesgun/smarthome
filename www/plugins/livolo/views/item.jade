@@ -1,10 +1,10 @@
 each item in items
   div.plugin-container.livolo(class=item.groupId)
     p.description
-      span.muted Group ID:
-      strong #{item.groupId}
-      span.muted Device ID:
-      strong #{item.deviceId}
+      span.muted Group ID:&nbsp;
+      strong #{item.groupId}&nbsp;
+      span.muted Device ID:&nbsp;
+      strong #{item.deviceId}&nbsp;
       small (PIN #{item.pin})
       div(data-toggle="buttons-radio")
     - if (item.deviceId == "42" || item.deviceId == "106")
